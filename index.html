@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather - Forecast</title>
+    <link rel="stylesheet" href="weather-index.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1><ion-icon name="sunny-outline"></ion-icon>Forecaster</h1>
+            <div class="prediction">
+                <div class="city">
+                    <p class="city-name">new delhi, IN</p>
+                    <p class="temp">24 &#xb0;C</p>
+                    <p class="feels">Feels like 20 &#xb0;C</p>
+                </div>
+                <div class="search">
+                    <input class="input" type="text" placeholder="Search City"></input>
+                <ion-icon class="searchIcon" name="search-outline"></ion-icon>
+                </div>
+                <div class="weather">
+                    <span class="weather-span-1">Clear</span>
+                    <span class="weather-span-2"><img class="weatherType" src="./img/icons/cloudsun.png"></img></span>
+                </div>
+            </div>
+            <div class="details">
+                <ul>
+                    <li><p class="li-p1">humidity</p><p class="li-p2 humidity">26%</p></li>
+                    <li><p class="li-p1">pressure</p><p class="li-p2 pressure">900Pha</p></li>
+                    <li><p class="li-p1">wind</p><p class="li-p2 wind">1.6Km/hr</p></li>
+                    <li><p class="li-p1">visibility</p><p class="li-p2 visiblity">4Kms</p></li>
+                    <li><p class="li-p1">min temp</p><p class="li-p2 minTemp">16 &#xb0;C </p></li>
+                    <li><p class="li-p1">max temp</p><p class="li-p2 maxTemp">26 &#xb0;C</p></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="weather.js">
+</script>
+</body>
+</html>
