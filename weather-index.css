@@ -89,8 +89,8 @@ h1 ion-icon{
     cursor: pointer;
 }
 .searchIcon:active{
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
 }
 .weather{  
     min-width: 25%;

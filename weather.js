@@ -53,7 +53,7 @@ async function checkWeather(city){
         main.style.backgroundImage = `url("img/Dust.jpg")`
         weatherIcon.src = "./img/icons/cloudsun1.png"
     }
-    else if(weatherReport.weather[0].main =="Mist"){
+    else if(weatherReport.weather[0].main =="Mist" || weatherReport.weather[0].main =="Haze"){
         main.style.backgroundImage = `url("img/Mist.jpg")`
         weatherIcon.src = "./img/icons/cloudsun1.png"
    }
